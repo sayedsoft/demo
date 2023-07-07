@@ -1,0 +1,110 @@
+@import './../assets/css/bootstrap-dark.min.css';
+@import './../assets/css/app-dark.min.css';
+
+
+@import 'bootstrap-vue-3/dist/bootstrap-vue-3.css';
+
+@import 'vue-css-donut-chart/dist/vcdonut.css';
+
+@import './../assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css';
+@import './../assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css';
+
+@import './../assets/css/icons.min.css';
+
+@import './../assets/css/custom.css';
+@import './../assets/css/num.css';
+
+
+.input-btn-text {
+    text-align: right;
+    opacity: .5;
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.input-btn-text:hover {
+    opacity: 1;
+}
+
+.inv-details {
+    font-weight: 200;
+    font-size: 0.82em;
+}
+
+.youdex-btn {
+    background: rgb(228, 94, 252);
+    background: linear-gradient(90deg, rgba(228, 94, 252, 1) 0%, rgba(49, 241, 163, 1) 44%, rgba(246, 94, 252, 1) 100%);
+}
+
+.custom-h {
+    border-bottom: 1px solid #1d222e !important;
+}
+
+
+.asset_name_c {
+    .asset-icon {
+        font-size: 1.8em;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+.clp {
+    cursor: pointer;
+}
+
+.r-b {
+    border-right: 1px solid #1d222e !important;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.inv-label {
+    min-width: 50%;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+
+.inv-val {
+    min-width: 50%;
+    display: inline-block;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.w-h-icon {
+    width: 40px;
+    display: -webkit-inline-box;
+}
+
+.custom-h {
+    padding: 0.575rem 1.75rem;
+}
+
+.custom-h .card-title {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.parsley-errors-list>li {
+    margin-left: 16px;
+}
+
+
+.ft-c {
+    text-transform: capitalize;
+}

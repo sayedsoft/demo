@@ -1,0 +1,38 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "public/assets"],
+  "compilerOptions": {
+    "preserveValueImports": false, 
+    "suppressImplicitAnyIndexErrors": true,
+    "importsNotUsedAsValues": "preserve",
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "allowJs": true,
+    "lib": ["esnext", "dom"],
+    "types": [
+      "vite/client",
+      "vite-plugin-pwa/client",
+      "vite-plugin-pages/client",
+    ],
+    "paths": {
+      "/@src/*": ["./src/*"]
+    },
+    "include": [
+      "components.d.ts",
+      "components-global.d.ts",
+      "src/**/*.js",
+      "src/**/*.ts",
+      "src/**/*.d.ts",
+      "src/**/*.tsx",
+      "src/**/*.vue",
+      "documentation/**/*.md"
+    ],
+  },
+  
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    }
+  ]
+}
